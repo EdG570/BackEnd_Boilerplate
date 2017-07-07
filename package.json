@@ -1,0 +1,21 @@
+{
+  "name": "backend_boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for express, mongoose and mocha",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
+  },
+  "author": "Ed Glazenski",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.11.1",
+    "supertest": "^3.0.0"
+  }
+}
